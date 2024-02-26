@@ -1,0 +1,42 @@
+/*
+MY COLOR PALETTE
+Color 1 - #3B4931
+Color 2 - #FF99BD
+Color 3 - #FFB60A
+Color 4 - #1097BC
+Color 5 - #8A41B4
+*/
+
+body {
+    background-color: #FF99BD;
+    text-align: center;
+}
+
+button{
+   background-color: #8A41B4;
+    color: #FFB60A;
+    width: 200px;
+    padding: 20px;
+    margin: 45px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border:none;
+    border-radius: 15px;
+        
+}
+
+button:hover {
+  background-color: #1097BC;  
+}
+
+h1 {
+    font-family: "Outfit", Bitter;
+    color: white;
+    font-size: 60px
+}
+
+h2 {
+   font-family: "Outfit", Bitter;
+    color: white;
+    font-size: 45px 
+}
