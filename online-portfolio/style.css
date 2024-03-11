@@ -1,5 +1,41 @@
+@media {
 img {
     width: 100%;
-    border: solid 5px purple
+    border: solid 5px purple;
+    border-radius: 50%;
+    margin;40px  
+    }
+}
+
+h1 {
+    margin: 40px 0px 10px 40px;
+    font-size: 30px;
+    color: #FFFCF6;
+    font-family: "League Spartan", sans-serif;
+}
+h2 {
+   font-family: "Inter", sans-serif;
+}
+
+#topper {
+    background-color: #5EB090;
+}
+#nav {
+    width: 70%;
+    text-align:center;
+    background-color: #3C6CA8;
+    color: #FFFCF6;
+}
+#nav a:hover{
+    color: #FFFCF6; 
+    text-decoration: underline;
+}
+
+.jobtitle {
     
+}
+@media (min-width:576px) {
+    h1 {
+    font-size: 70px;
+}
 }
