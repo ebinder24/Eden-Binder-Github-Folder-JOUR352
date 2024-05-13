@@ -1,146 +1,92 @@
 @media {
     img {
-    width: 100%;
-    
-}
+        width: 100%;
+    }
 
-#topper{
-    background-image:url(Kim-zoomed-title.jpeg);
-    background-size: cover;
-    background-position: center;
-padding: 170px 0px 290px;
-text-align: left;
-}
+    #topper {
+        background-image: url(Kim-zoomed-title.jpeg);
+        background-size: cover;
+        background-position: center;
+        padding: 170px 0px 290px;
+        text-align: left;
+    }
 
-h1{
-    color: black;
-    text-align: center;
-    font-weight: bold;
-    font-family: "Archivo Black", sans-serif;
-}
+    h1 {
+        color: black;
+        text-align: center;
+        font-weight: bold;
+        font-family: "Archivo Black", sans-serif;
+        font-size: 75px;
+    }
 
-.caption {
-    font-size: 10px;
-    margin:0px 0px 5px 0px;
-}
+    .caption {
+        font-size: 10px;
+        margin: 0px 0px 5px 0px;
+    }
 
-.credit {
-    font-weight: bold;
-    color: gray;
-    text-transform: capitalize;
-    font-size: 10px;
-    margin-top: 10px
-    
-}
-.date{
-    font-size: 15px;
-    text-align: center;
-    font-family: "Tenor Sans", sans-serif
-}
-    h2{
+    .credit {
+        font-weight: bold;
+        color: blueviolet;
+        text-transform: capitalize;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .date {
+        font-size: 15px;
         text-align: center;
         font-family: "Tenor Sans", sans-serif;
-        color: black
+    }
+    h2 {
+        text-align: center;
+        font-family: "Tenor Sans", sans-serif;
+        color: black;
+        font-size: 40px;
     }
     #content {
-text-align: left;
-margin: 20px 10px 10px 20px;
-padding-left: 170px;
-font-family: "Tenor Sans", sans-serif;
-    }
-        
-    }
-    
-    #box{
-        margin: 20px;
+        text-align: left;
+        width: 90%;
+        margin: auto;
+        font-family: "Tenor Sans", sans-serif;
     }
 
-#box1{
-   margin:20px;     
-    }
-#boxone{
-    margin: 20px;
-    
-}
-#box2{
-   margin:20px;     
-    }
-    
-#box3{
-   margin:20px     
+    #chart {
+        width: 80%;
+        margin: auto;
     }
 
-#box4{
-   margin:20px     
+    #finalbox {
+        margin: 20px 0px 20px 0px;
+        color: red;
     }
 
-#box5{
-   margin:20px     
+    .pullquote {
+        border-left: 3px solid blueviolet;
+        padding: 0px 0px 0px 15px;
+        margin: 20px 0px 20px 0px;
+        font-size: 30px;
+        color: black;
+        font-family: "Oswald", sans-serif;
     }
 
-#box6{
-   margin:20px     
+    .link {
+        color: red;
+        font-weight: bolder;
+    }
+    .link:hover {
+        color: blue;
     }
 
-#box7{
-   margin:20px     
+    .attribution {
+        font-size: 15px;
+        color: blueviolet;
     }
-
-#box8{
-   margin:20px     
-    }
-
-#box9{
-   margin:20px     
-    }
-
-#box10{
-   margin:20px     
-    }
-
-#box11{
-   margin:20px     
-    }
-
-#box12{
-   margin:20px     
-    }
-
-#box13{
-   margin:20px     
-    }
-
-#box14{
-   margin:20px     
-    }
-
-#finalbox{
-    margin: 20px
 }
 
-.pullquote{
-border-left: 3px solid #1A467D;
-margin: 20px 0px 20px 0px;
-font-size: 30px;
-color: blueviolet;
-background-color:lightyellow;
-font-family: "Oswald",sans-serif;
-  
-}
-
-.attribution{
-font-size: 15px;
-color: black;
-}
-
-@media (min-width: 576px){
+@media (min-width: 576px) {
     #content {
-        width: 80%
-    }   
-}
- 
-@media (min-width:992px){
-    #content{
-        width: 120%
+        width: 80%;
+    }
+    #chart {
+        width: 50%;
     }
 }
